@@ -8,9 +8,7 @@ public class MentoriaApiApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MentoriaApiApplication.class, args);
-    MaquinaCorte maquina = new CorteOxicorte();
-    ServicoProducao servico = new ServicoProducao(maquina);
-    servico.iniciarOrdem("Chapa de Aco 10mm");
+		
 	}
 
 }
